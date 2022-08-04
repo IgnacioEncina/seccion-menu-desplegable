@@ -55,7 +55,7 @@ window.addEventListener('load', () => {
         var menuVis = menu.style.display;
         console.log(menuVis);
         if (menuVis == 'none') {
-            menu.style.display = 'block';
+            menu.style.display = 'flex';
             menu.style.height = '200px' ;
             menu.style.fontSize = '12px' ;
             iconDown.style.display = 'none';

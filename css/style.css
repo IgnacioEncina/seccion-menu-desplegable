@@ -27,7 +27,7 @@ header {
 
 .left-header > img {
     width: 100px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .cerrar {
@@ -70,6 +70,7 @@ button {
 }
 
 a:hover{
+    color: #b4b4b4 !important;
     text-decoration: none !important;
 }
 
@@ -82,7 +83,7 @@ a:hover{
     width: 98%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 10px;
 }
 
@@ -92,15 +93,12 @@ a:hover{
 
 .li-desplegable {
     display: flex;
-    /* height: 19px; */
     align-items: center;
     flex-direction: column;
     justify-content: flex-start;
     position: relative;
     align-content: center;
-    /* z-index: 300; */
     margin: 10px;
-    /* transition: 0.9s ; */
 
 } 
 
@@ -108,26 +106,19 @@ a:hover{
     width: 100%;
     min-width: 100px;
     text-decoration: none;
-    color: black;
+    color: #b4b4b4;
     display: flex;
     align-content: center;
     justify-content: space-around;
     align-items: center;
-    /* transition: 0.3s; */
 }
 
 .sub-menu-feat {
     display: flex;
-    /* transition: all 0.2s ;
-    transition-timing-function: cubic-bezier(0.32, 0.33, 0.73, 0.72);
-    transition-delay: 0ms; */
 }
 
 .sub-menu-comp {
     display: flex;
-    /* transition: all 0.2s ;
-    transition-timing-function: cubic-bezier(0.32, 0.33, 0.73, 0.72);
-    transition-delay: 0ms;*/
 } 
 
 #menu-feat-ul {
@@ -206,14 +197,16 @@ a:hover{
     border: 0;
     margin-right: 20px;
     background-color: transparent;
+    color: #b4b4b4;
 }
 
 .register {
-    border: 2px solid black;
+    border: 2px solid #b4b4b4;
     border-radius: 15px;
     background-color: transparent;
     padding: 8px;
     width: 110px;
+    color: #b4b4b4;
 }
 
 .right {
@@ -244,15 +237,14 @@ a:hover{
     flex-direction: row;
     align-items: center;
     margin: auto;
-    /* padding: 20px; */
-    /* margin-left: 50px; */
     height: 100%;
 }
 
 .principal h1{
-    font-size: 5.5rem;
-    font-weight: 700;
+    font-size: 5.2rem;
+    font-weight: 900;
     line-height: 1;
+    font-kerning: none;
 }
 
 .left {
@@ -272,7 +264,7 @@ a:hover{
     align-items: flex-start;
     height: 100%;
     width: 100%;
-    max-width: 560px;
+    max-width: 540px;
     max-height: 490px;
     justify-content: space-evenly;
 }
@@ -285,6 +277,7 @@ a:hover{
     font-size: 20px;
     font-weight: 500;
     max-width: 500px;
+    color: #b4b4b4;
 }
 
 .leftBottom {
@@ -440,11 +433,11 @@ body>nav {
                 flex-direction: column;
                 align-items: center;
                 width: 80%;
-                justify-content: center;
             }
 
             #menu-comp-ul {
                 margin-left: 0;
+                width: 100% !important;
             }
 
             .li-desplegable {
